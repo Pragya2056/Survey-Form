@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Pragya's Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <h1 id="head">Pragya's Survey Form</h1>
+        <h2 id="sub-head"><i>Thank you for taking your time to fill the form.</i></h2>
+      </div>
+    </header>
+    <form>
+      <div id="first">
+        <label> Name </label>
+        <br />
+        <br />
+        <input type="text" name="name" placeholder="Enter your name" class="box" />
+        <br />
+        <br />
+        <label> Email </label>
+        <br />
+        <br />
+        <input type="email" placeholder="Enter your email address" class="box" />
+        <br />
+        <br />
+        <label> Age </label>
+        <br />
+        <br />
+        <input type="number" placeholder="Enter your age" class="box" />
+        <br />
+        <br />
+        <label>What do you do?</label>
+        <br />
+        <br />
+        <div id="second">
+          <select>
+            <option name="What do you do?">Select what you do</option>
+            <option value="Student">Student</option>
+            <option value="Full Time Job">Full Time Job</option>
+            <option value="Business-Owner">Business-Owner</option>
+            <option value="Prefer Not to Say">Prefer Not to Say</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      <br />
+      <br />
+      <label id="third">Do you use a vehicle?</label>
+      <br />
+      <br />
+      <input type="radio" class="input" />&nbsp&nbsp&nbspYes
+      <br />
+      <br />
+      <input type="radio" class="input" />&nbsp&nbsp&nbspNo
+      <br />
+      <br />
+      <input type="radio" class="input" />&nbsp&nbsp&nbspSometimes
+      <br />
+      <br />
+      <label> What is your personal favourite vechicle to ride?</label>
+      <br />
+      <br />
+      <div id="fourth">
+        <select>
+          <option name="Select an option"> Choose your vehicle of choice</option>
+          <option value="Bike">Bike</option>
+          <option value="Scooter">Scooter</option>
+          <option value="Car">Car</option>
+          <option value="Bus">Bus</option>
+          <option value="Train">Train</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <br />
+      <label id="fifth">Do you want to switch from petrol/diesel vehicles to electric ones?</label>
+      <br />
+      <br />
+      <div id="sixth">
+        <input type="checkbox" class="input" /><label>&nbsp&nbsp&nbspSurely Yes</label>
+        <br />
+        <br />
+        <input type="checkbox" class="input" /><label>&nbsp&nbsp&nbspOkay</label>
+        <br />
+        <br />
+        <input type="checkbox" class="input" /><label>&nbsp&nbsp&nbspNeutral</label>
+        <br />
+        <br />
+        <input type="checkbox" class="input" /><label>&nbsp&nbsp&nbspNo</label>
+        <br />
+        <br />
+        <input type="checkbox" class="input" /><label>&nbsp&nbsp&nbspDefinitely Not</label>
+        <br />
+        <br />
+      </div>
+      <label id="fifth">Any comments or suggestions?</label>
+      <br />
+      <br />
+      <textarea placeholder="Enter your comment or suggestion here....."></textarea>
+      <br />
+      <button>
+        <h3>Submit</h3>
+      </button>
+    </form>
+  </body>
+</html>
